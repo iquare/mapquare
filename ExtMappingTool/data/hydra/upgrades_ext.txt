@@ -1,0 +1,2684 @@
+#####upgrade_62
+###Escalate: Firebat/Cyprian
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 92
+label: 1563
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_63
+###Plasteel Servos
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 307
+label: 451
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_64
+###Odysseus Reactor
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 107
+label: 1566
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_65
+###Capacitors
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 332
+label: 1567
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_66
+###Reverse Thrust
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 244
+label: 1568
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_67
+###Escalate: Azazel
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1569
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_68
+###Restorative Matrices
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 366
+label: 1571
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_69
+###Achernus Reactor
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 248
+label: 1572
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_70
+###Umojan Batteries
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 322
+label: 1573
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_71
+###Escalate: Savant
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1574
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_72
+###Augustgrad's Revenge
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 311
+label: 1576
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_73
+###Tendril Amitosis
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 146
+label: 1577
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_74
+###Nydal Transfusion
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 134
+label: 1578
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_75
+###Vital Encephalon
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 295
+label: 1579
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_76
+###Ravening Mandible
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 264
+label: 1580
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_77
+###Metastasis
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 265
+label: 1581
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_78
+###Escalate: Paladin
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1582
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_79
+###Escalate: Sentry
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1584
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_80
+###Sequester Pods
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 337
+label: 1586
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_81
+###Animus Coolant
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1587
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_82
+###Radiation Shockwave
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 241
+label: 1588
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_83
+###Sharing's Caring
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1589
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_84
+###A Good Price
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1590
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_85
+###Leading the Blind
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1591
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_86
+###Roadkill
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1592
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_87
+###Pit Stop
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1593
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_88
+###Trial by Fire
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1594
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_89
+###Fore Castle
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 291
+label: 1595
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_90
+###Tectonic Claws
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 382
+label: 1596
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_91
+###Saber Siphon
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 340
+label: 1597
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_92
+###Indomitable Musculature
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 378
+label: 1598
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_93
+###Corrosive Dispersion
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 301
+label: 1599
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_94
+###Synaptic Growth
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 295
+label: 1600
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_95
+###Last Orders
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 70
+label: 1601
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_96
+###Power Flux
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 308
+label: 1602
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_97
+###Khaydarin Generator
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 322
+label: 1603
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_98
+###Caustic Fission
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 345
+label: 1604
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_99
+###Taldarin's Grace
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 310
+label: 1605
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_100
+###Ephemeral Blades
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 305
+label: 1606
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_101
+###Ascendancy
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 274
+label: 1607
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_102
+###Asclepius Reactor
+ore_cost: 100
+ore_cost_factor: 0
+gas_cost: 100
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 256
+label: 1608
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_103
+###Adrenaline Packs
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 365
+label: 1697
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_104
+###Gravitic Attenuator
+ore_cost: 200
+ore_cost_factor: 0
+gas_cost: 200
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 383
+label: 1758
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_105
+###Escalate: Aspect
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 2
+label: 1611
+race: 0
+max_repeats: 2
+broodwar: 0
+###
+#####upgrade_106
+###Ion Propulsion
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 2496
+time_cost_factor: 0
+reqindex: 65535
+icon: 287
+label: 1610
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_107
+###Escalate: Shaman
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 15
+label: 1683
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_108
+###Astral Aegis
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 4000
+time_cost_factor: 0
+reqindex: 65535
+icon: 308
+label: 1754
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_109
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_110
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_111
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_112
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_113
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_114
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_115
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_116
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_117
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_118
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_119
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_120
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_121
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_122
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_123
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_124
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_125
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_126
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_127
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_128
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_129
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_130
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_131
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_132
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_133
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_134
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_135
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_136
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_137
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_138
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_139
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_140
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_141
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_142
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_143
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_144
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_145
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_146
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_147
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_148
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_149
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_150
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_151
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_152
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_153
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_154
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_155
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_156
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_157
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_158
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_159
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_160
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_161
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_162
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_163
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_164
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_165
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_166
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_167
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_168
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_169
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_170
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_171
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_172
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_173
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_174
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_175
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_176
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_177
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_178
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_179
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_180
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_181
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_182
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_183
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_184
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_185
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_186
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_187
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_188
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_189
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_190
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_191
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_192
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_193
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_194
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_195
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_196
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_197
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_198
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_199
+###
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_200
+###Relic - Tempest
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_201
+###Relic - Penance
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_202
+###Relic - Blind Judge
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_203
+###Relic - Emperor
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_204
+###Relic - Mind Forge
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_205
+###Relic - Boltmaker
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_206
+###Relic - Conviction
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_207
+###Relic - Weapon 8
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_208
+###Relic - Weapon 9
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_209
+###Relic - Weapon 10
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_210
+###Relic - Endless Vigil
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_211
+###Relic - Immortal Fortress
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_212
+###Relic - Intervention
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_213
+###Relic - Predator's Cloak
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_214
+###Relic - Astral Anchor
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_215
+###Relic - Infinite Ascent
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_216
+###Relic - Armor 7
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_217
+###Relic - Armor 8
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_218
+###Relic - Armor 9
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_219
+###Relic - Armor 10
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_220
+###Relic - Light of Saalok
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_221
+###Relic - Crest of Adun
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_222
+###Relic - Blessed Summons
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_223
+###Relic - Heartseeker
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_224
+###Relic - Shade Sigil
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_225
+###Relic - Binding Crucible
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_226
+###Relic - Virtuous Attenuator
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_227
+###Relic - Holy Ember
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_228
+###Relic - Stormpeak
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_229
+###Relic - Augment 9
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_230
+###Relic - Augment 10
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_231
+###Relic - Augment 11
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_232
+###Relic - Augment 12
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_233
+###Relic - Augment 13
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_234
+###Relic - Augment 14
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_235
+###Relic - Augment 15
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_236
+###Relic - Augment 16
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_237
+###Relic - Augment 17
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_238
+###Relic - Augment 18
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_239
+###Relic - Augment 19
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0
+###
+#####upgrade_240
+###Relic - Augment 20
+ore_cost: 150
+ore_cost_factor: 0
+gas_cost: 150
+gas_cost_factor: 0
+time_cost: 1500
+time_cost_factor: 0
+reqindex: 65535
+icon: 325
+label: 1613
+race: 0
+max_repeats: 1
+broodwar: 0

@@ -1,0 +1,456 @@
+# unitdef.txt file (External Definition)
+# This is a PyAI version of UNITDEF.INI made by Gold Dragon, used by ScAIEdit III
+#
+# DON'T EDIT THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING
+#
+# If you need to add, modify or delete entries so it can fit your needs, do not modify the
+#  original file. Make copies, then modify them and put the same directory as your ai script.
+#
+# Remember: When you compile using External Definition files, the variables are not saved. To
+#           decompile with the variables intact, you must have your modified External Definition
+#           file too.
+
+#
+# Project Overlord
+#
+# Kel-Morian combine
+
+military marauder_tank = 5
+military brigand = 37
+military rifleman = 38
+military black_ops = 40
+military grenadier = 52
+military runabout = 17
+building engineer = 41
+military corvette = 44
+military privateer = 55
+military frigate = 58
+building guildhall = 133
+building scrap_processor = 174
+building comm_tower = 190
+building cargo_ship = 42
+building tactical_center = 131
+building defense_control = 137
+building merc_compound = 138
+building training_center = 139
+building starbase = 140
+building refit_bay = 136
+building vehicle_depot = 142
+building km_armory = 145
+building radar_tower = 150
+building autocannon = 184
+building flak_gun = 185
+building empty_autocannon = 186
+building empty_flak_gun = 187
+building mining_station = 200
+building research_center = 201
+military vermin = 45
+@spellcaster(vermin)
+upgrade ap_rounds = 45
+upgrade improved_plating = 46
+upgrade medpacks = 48
+upgrade grenades = 56
+upgrade structure_armor = 50
+upgrade mineral_harvest = 55
+#upgrade_ext quick_deployment = 62
+#upgrade_ext cannon_fodder = 63
+#upgrade_ext targeting_sensors = 64
+#upgrade_ext stationary_weapons = 65
+#upgrade_ext advanced_tech = 66
+#upgrade_ext enhance_research = 67
+#upgrade_ext excavation = 68
+#upgrade_ext core_weapons = 69
+#upgrade_ext missile_weapons = 70
+#upgrade_ext beam_weapons = 71
+#upgrade_ext personnel_armor = 72
+#upgrade_ext hull_armor = 73
+#upgrade_ext extra_launchers = 74
+#upgrade_ext tartarus_flamethrowers = 75
+#
+#upgrade_ext extra_weapon_clips = 76
+#upgrade_ext confederate_rifles = 77
+#upgrade_ext combat_shields = 78
+#upgrade_ext r14_lasersights = 79
+#upgrade_ext umojan_power_packs = 80
+#upgrade_ext vehicles_engines = 81
+#upgrade_ext laser_cannon_blueprints = 82
+#upgrade_ext battlecruiser_warp_core = 83
+#
+#upgrade_ext bullet = 84
+#upgrade_ext rabid_dog = 85
+#upgrade_ext razor = 86
+#upgrade_ext dead_eye = 87
+#upgrade_ext absolute_zero = 88
+#upgrade_ext reckoning = 89
+#upgrade_ext default_stim_upg = 90
+#
+# SCAVENGERS
+military hawk = 69
+# PIRATES
+military dagger = 61
+military hellfire = 46
+military cobra = 53
+#
+# MERCS
+#
+military bullfrog_tank = 103
+military shrike = 84
+military mustang = 79
+military pyro = 68
+#
+# MINERS
+military prospector = 74
+military militia = 50
+military stingray = 43
+building mole = 77
+# NEUTRAL
+military merchant_ship = 75
+military cargo_truck = 88
+building merc_cantina = 75
+building stim_hub = 189
+building weapon_trader = 171
+#
+# Confederacy
+military confed_ghost = 104
+military basilisk = 39
+military avenger = 27
+military whirlwind = 100
+military tempest = 20
+military armadillo = 19
+military eagle = 28
+military scythe = 63
+building shock_cannon = 143
+building shock_cannon_real = 144	
+upgrade burst_lasers = 18
+upgrade avenger_speed = 29
+#nuke - requires idle_tactics
+# EPSILON SQUADRON
+military silence = 191
+# OMEGA SQUADRON
+upgrade firebat_armor = 25
+upgrade firebat_damage = 26
+# ALPHA SQUADRON
+upgrade whirlwind_attack = 28
+upgrade basilisk_range = 30
+# GAMMA SQUADRON
+military bomber = 21
+#
+#
+# Terran military units
+military marine = 0
+military ghost = 1
+military vulture = 2
+military goliath = 3
+military siege_tank = 5
+military wraith = 8
+military science_vessel = 9
+@spellcaster(science_vessel)
+military dropship = 11
+military battlecruiser = 12
+military nuclear_missile = 14
+military firebat = 32
+military medic = 34
+@spellcaster(medic)
+military valkyrie = 58
+military hfirebat = 10
+military hkerrigan = 16
+military hgoliath = 17
+military hvulture = 19
+military hmarine = 20
+military hwraith = 21
+military hsciencevessel = 22
+@spellcaster(hsciencevessel)
+military htank = 23
+military htanksiege = 25
+military hmengsk = 27
+military hhyperion = 28
+military hnorad = 29
+military tanksiege = 30
+military hduran = 99
+military hstukov = 100
+military hdugalle = 102
+
+# Misc units
+building zmarker = 191
+building tmarker = 192
+building pmarker = 193
+military mchunk1 = 220
+military mchunk2 = 221
+military pgasorb1 = 222
+military pgasorb2 = 223
+
+# Zerg military units
+military zergling = 37
+military hydralisk = 38
+military ultralisk = 39
+military mutalisk = 43
+military guardian = 44
+military queen = 45
+@spellcaster(queen)
+military defiler = 46
+@spellcaster(defiler)
+military scourge = 47
+military infested_terran = 50
+military devourer = 62
+military lurker = 103
+military hultralisk = 48
+military hqueen = 49
+@spellcaster(hqueen)
+military hikerrigan = 51
+military hdefiler = 52
+military hhydralisk = 53
+military hzergling = 54
+military hmutalisk = 55
+military hguardian = 56
+military hiduran = 104
+
+# Protoss military units
+military corsair = 60
+military dark_templar = 61
+military dark_archon = 63
+@spellcaster(dark_archon)
+military zealot = 65
+military dragoon = 66
+military high_templar = 67
+@spellcaster(high_templar)
+military archon = 68
+military shuttle = 69
+military scout = 70
+military arbiter = 71
+military carrier = 72
+military reaver = 83
+military observer = 84
+military hdarktemplar = 74
+military hzeratul = 75
+military harchon = 76
+military hzealot = 77
+military hdragoon = 78
+military htassadar = 79
+military hmojo = 80
+military hreaver = 81
+military hcarrier = 82
+military harbiter = 86
+military haldaris = 87
+military hartanis = 88
+military hcorsair = 98
+
+
+# Terran buildings
+building scv = 7
+building command_center = 106
+building comsat_station = 107
+building nuclear_silo = 108
+building supply_depot = 109
+building refinery = 110
+building barracks = 111
+building academy = 112
+building factory = 113
+building starport = 114
+building control_tower = 115
+building science_facility = 116
+building covert_ops = 117
+building physics_lab = 118
+building machine_shop = 120
+building engineering_bay = 122
+building armory = 123
+building missile_turret = 124
+building bunker = 125
+
+# Zerg buildings
+building drone = 41
+building overlord = 42
+building infested_command_center = 130
+building hatchery = 131
+building lair = 132
+building hive = 133
+building nydus_canal = 134
+building hydralisk_den = 135
+building defiler_mound = 136
+building greater_spire = 137
+building queen_nest = 138
+building evolution_chamber = 139
+building ultralisk_cavern = 140
+building spire = 141
+building spawning_pool = 142
+building creep_colony = 143
+building spore_colony = 144
+building sunken_colony = 146
+building extractor = 149
+
+# Protoss buildings
+building probe = 64
+building nexus = 154
+building robotics_facility = 155
+building pylon = 156
+building assimilator = 157
+building observatory = 159
+building gateway = 160
+building photon_cannon = 162
+building citadel_of_adun = 163
+building cybernetics_core = 164
+building templar_archives = 165
+building forge = 166
+building stargate = 167
+building fleet_beacon = 169
+building arbiter_tribunal = 170
+building robotics_support_bay = 171
+building shield_battery = 172
+
+
+# Terran upgrades
+upgrade t_infantry_armor = 0
+upgrade t_vehicle_plating = 1
+upgrade t_ship_plating = 2
+upgrade t_infantry_weapon = 7
+upgrade t_vehicle_weapon = 8
+upgrade t_ship_weapon = 9
+upgrade marine_range = 16
+upgrade vulture_speed = 17
+upgrade science_vessel_mana = 19
+upgrade ghost_sight = 20
+upgrade ghost_mana = 21
+upgrade wraith_mana = 22
+upgrade battlecruiser_mana = 23
+upgrade medic_mana = 51
+upgrade goliath_range = 54
+
+# Zerg upgrades
+upgrade z_carapace = 3
+upgrade z_flyer_carapace = 4
+upgrade z_melee_attack = 10
+upgrade z_missile_attack = 11
+upgrade z_flyer_attack = 12
+upgrade overlord_capacity = 24
+upgrade overlord_sight = 25
+upgrade overlord_speed = 26
+upgrade zergling_speed = 27
+upgrade zergling_attack = 28
+upgrade hydralisk_speed = 29
+upgrade hydralisk_range = 30
+upgrade queen_mana = 31
+upgrade defiler_mana = 32
+upgrade ultralisk_armor = 52
+upgrade ultralisk_speed = 53
+
+# Protoss upgrades
+upgrade p_armor = 5
+upgrade p_plating = 6
+upgrade p_ground_weapon = 13
+upgrade p_air_weapon = 14
+upgrade p_plasma_shield = 15
+upgrade dragoon_range = 33
+upgrade zealot_speed = 34
+upgrade scarab_damage = 35
+upgrade reaver_capacity = 36
+upgrade shuttle_speed = 37
+upgrade observer_sight = 38
+upgrade observer_speed = 39
+upgrade templar_mana = 40
+upgrade scout_sight = 41
+upgrade scout_speed = 42
+upgrade carrier_capacity = 43
+upgrade arbiter_mana = 44
+upgrade corsair_mana = 47
+upgrade dark_archon_mana = 49
+
+
+# Terran tech
+technology stim_packs = 0
+technology lockdown = 1
+technology emp_shockwave = 2
+technology spider_mines = 3
+technology siege_mode = 5
+technology defensive_matrix = 6
+technology irradiate = 7
+technology yamato_gun = 8
+technology cloaking_field = 9
+technology personnel_cloaking = 10
+technology restoration = 24
+technology optical_flare = 30
+
+# Zerg tech
+technology burrowing = 11
+technology infestation = 12
+technology spawn_broodling = 13
+technology dark_swarm = 14
+technology plague = 15
+technology consume = 16
+technology ensnare = 17
+technology parasite = 18
+technology lurker_aspect = 32
+
+# Protoss tech
+technology psionic_storm = 19
+technology hallucination = 20
+technology recall = 21
+technology archon_warp = 23
+technology stasis_field = 22
+technology disruption_web = 25
+technology mind_control = 27
+technology feedback = 29
+technology maelstrom = 31
+
+
+# Neutral entities
+military cocoon = 59
+military lurker_egg = 97
+military scarab = 85
+military rhynadon = 89
+military bengalaas = 90
+military old_cargo_ship = 91
+military merc_ship = 92
+military templar_fake = 91
+military arbiter_fake = 92
+military scantid = 93
+military kakaru = 94
+military ragnasaur = 95
+military ursadon = 96
+military map_revealer = 101
+military disruption_web_unit = 105
+building ind_starbase = 119
+building ind_repair_bay = 121
+military uraj = 128
+military khalis = 129
+building unused_zerg1 = 145
+building unused_zerg2 = 153
+building unused_protoss1 = 158
+building unused_protoss2 = 161
+building mineral_field1 = 176
+building mineral_field2 = 177
+building mineral_field3 = 178
+building cave = 179
+building cavein = 180
+building cantina = 181
+building mining_platform = 182
+building ind_command_center = 183
+building ind_starport = 184
+building ind_jump_gate = 185
+building ruins = 186
+building khaydarin_formation_unused = 187
+building vespene_geyser = 188
+military dark_swarm_unit = 202
+military floor_missile_trap = 203
+military floor_hatch = 204
+military left_upper_door = 205
+military right_upper_door = 206
+military left_pit_door = 207
+military right_pit_door = 208
+military floor_gun_trap = 209
+military left_missile_trap = 210
+military left_flame_trap = 211
+military right_missile_trap = 212
+military right_flame_trap = 213
+building start_location = 214
+military flag = 215
+military young_chrysalis = 216
+military psi_emitter = 217
+military data_disc = 218
+military khaydarin_crystal = 219
+military mineral_cluster1 = 220
+military mineral_cluster2 = 221
+military vespene_pickup_p1 = 222
+military vespene_pickup_p2 = 223
+military vespene_pickup_z1 = 224
+military vespene_pickup_z2 = 225
+military vespene_pickup_t1 = 226
+military vespene_pickup_t2 = 227

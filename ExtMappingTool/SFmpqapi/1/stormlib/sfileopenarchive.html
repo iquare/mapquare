@@ -1,0 +1,265 @@
+<!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MPQ Archives - StormLib</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />
+  <meta name="keywords" content="Ladislav Zezula; MPQ format; StormLib; MPQ Editor; Storm.dll" />
+  <meta name="description" content="Ladislav Zezula - Web homepage" />
+  <meta name="robots" content="INDEX, FOLLOW" />
+  <link rel="stylesheet" type="text/css" href="../../../include/styles.css"h />
+</head>
+
+<script language="Javascript" type="text/javascript">
+function RunMailClient(user, domain, ctry)
+{
+    szMailClient = "mail" + "to" + ":" + user + "@" + domain + "." + ctry;
+    document.location = szMailClient;
+}
+function RunMyMailClient()
+{
+    RunMailClient("ladik", "zezula", "net");
+}
+</script>
+
+<body>
+<div class="navigation">
+<!-- Language switches -->
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" align="center">
+      <p class="image-and-text"><a href="../../../cz/mpq/stormlib/sfileopenarchive.html"h><img src="../../../images/czech.gif"s border="0" width="65" height="41" alt="Cesky" /></a>
+      <a href="../../../cz/mpq/stormlib/sfileopenarchive.html"h>Czech</a></p>
+    </td>
+    <td width="50%" align="center">
+      <p class="image-and-text"><a href="../../../en/mpq/stormlib/sfileopenarchive.html"h><img src="../../../images/english.gif"s border="0" width="65" height="41" alt="English" /></a>
+      <a href="../../../en/mpq/stormlib/sfileopenarchive.html"h>English</a></p>
+    </td>
+  </tr>
+  </table>
+
+  <p class="menuitem">Utilities</p>
+  <p class="submenuitem"><a href="../../../en/fstools/filespy.html"h>FileSpy</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/filetest.html"h>FileTest</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/ioctl.html"h>IOCTL Decoder</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/winsafer.html"h>WinSafer</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/bcdeditor.html"h>BCD Editor</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/bellavista.html"h>BellaVista</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/gamelauncher.html"h>Game Launcher</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/runass.html"h>RunAss</a></p>
+  <p class="submenuitem"><a href="../../../en/fstools/kdvmware.html"h>KDVMWARE</a></p>
+  
+  <p class="menuitem">MPQ Archives</p>
+  <p class="submenuitem"><a href="../../../en/mpq/main.html"h>Overview</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/mpqformat.html"h>MPQ Format</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/partialmpq.html"h>Partial MPQs</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/patchfiles.html"h>Patches</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/stormdll.html"h>Storm.dll</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/stormlib.html"h>StormLib</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/namebreak.html"h>Name Breaking</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/download.html"h>Download</a></p>
+  <p class="submenuitem"><a href="../../../en/mpq/links.html"h>Links</a></p>
+
+  <p class="menuitem">Programming</p>
+  <p class="submenuitem"><a href="../../../en/prog/main.html"h>Articles</a></p>
+
+  <p class="menuitem">Contact</p>
+  <p class="submenuitem"><a href="javascript:RunMyMailClient()"h>E-mail</a></p>
+  <p class="submenuitem"><a href="http://www.icq.com/153292074"h>ICQ</a></p>
+    
+</div>
+
+<div class="body">
+<!-- Title -->
+<p class="title">StormLib API Reference</p>
+<p class="subtitle">SFileOpenArchive</p>
+
+<h2>Description</h2>
+<pre><b>bool WINAPI SFileOpenArchive(</b>
+  <b>const char *</b> <i>szMpqName</i>,           // Archive file name
+  <b>DWORD</b> <i>dwPriority</i>,                 // Archive priority
+  <b>DWORD</b> <i>dwFlags</i>,                    // Open flags
+  <b>HANDLE *</b> <i>phMPQ</i>                    // Pointer to result HANDLE
+<b>);</b></pre>
+<p>Function <b>SFileOpenArchive</b> opens a MPQ archive. During the open operation,
+the archive is checked for corruptions, internal (listfile) and (attributes) are loaded, unless specified otherwise.
+The archive is open for read and write operations, unless MPQ_OPEN_READ_ONLY is specified.</p>
+<p>Note that StormLib maintains list of all files within the MPQ, as long as the MPQ is open.
+At the moment of MPQ opening, when the MPQ contains an internal list file, that listfile is parsed and
+all files in the listfile are checked against the hash table. Every file name that exists
+within the MPQ is added to the internal name list. The name list can be fuhrter extended by calling
+<a href="sfileaddlistfile.html">SFileAddListFile</a>.</p>
+
+<h2>Parameters</h2>
+<dl>
+  <dt>szMpqName</dt>
+    <dd>[in] Archive file name to open. See Archive Name section for more information.</dd>
+  <dt>dwPriority</dt>
+    <dd>[in] Priority of the archive for later search. StormLib does not use this parameter, set it to zero.</dd>
+  <dt>dwFlags</dt>
+    <dd>[in] Flags that specify additional options about how to open the file. Several flags can be combined
+        that can tell StormLib where to open the MPQ from, and what's the stream type of the MPQ. Note that
+        the BASE_PROVIDER_*, STREAM_PROVIDER_* and STREAM_FLAG_* are valid since StormLib v 8.10.
+
+      <table width="100%" border="1" cellspacing="0" cellpadding="2">
+      <tr valign="top">
+        <th align="center" width="30%">Stream provider value</th>
+        <th align="center" width="20%">Name prefix</th>
+        <th align="center" width="50%">Meaning</th>
+      </tr>
+      <tr>
+        <td align="left">STREAM_PROVIDER_FLAT<br />(0x0000)</td>
+        <td align="left">flat-</td>
+        <td align="left">The MPQ is plain linear file. The file can have a block bitmap at the end, indicating that some file blocks may be missing. This is the default value.</td>
+      </tr>
+      <tr>
+        <td align="left">STREAM_PROVIDER_PARTIAL<br />(0x0010)</td>
+        <td align="left">part-</td>
+        <td align="left">The MPQ is stored in partial file. Partial files were used by trial version of World of Warcraft (build 10958 - 11685).</td>
+      </tr>
+      <tr>
+        <td align="left">STREAM_PROVIDER_MPQE<br />(0x0020)</td>
+        <td align="left">mpqe-</td>
+        <td align="left">The MPQ is encrypted (.MPQE). Encrypted MPQs are used by Starcraft II and Diablo III installers. StormLib attempts to use all known keys. If no key can be used for decrypting the MPQ, the open operation fails.</td>
+      </tr>
+      <tr>
+        <td align="left">STREAM_PROVIDER_BLOCK4<br />(0x0030)</td>
+        <td align="left">blk4-</td>
+        <td align="left">The MPQ divided to multiple blocks and multiple files. Size of one block is 0x4000 bytes,
+            maximum number of blocks per file is 0x2000. Each block is followed by MD5 hash in plain ANSI text form.
+            If the total number of blocks in the archive is greater than 0x2000, then the archive is split into multiple files.
+            These files have decimal numeric extensions in ascending order (.MPQ.0, .MPQ.1, .MPQ.2 and so on).
+        </td>
+      </tr>
+      </table>
+
+      <table width="100%" border="1" cellspacing="0" cellpadding="2">
+      <tr valign="top">
+        <th align="center" width="30%">Base provider value</th>
+        <th align="center" width="20%">Name prefix</th>
+        <th align="center" width="50%">Meaning</th>
+      </tr>
+      <tr>
+        <td align="left">BASE_PROVIDER_FILE<br />(0x0000)</td>
+        <td align="left">file:</td>
+        <td align="left">The MPQ is in local file. This is the default value.</td>
+      </tr>
+      <tr>
+        <td align="left">BASE_PROVIDER_MAP<br />(0x0001)</td>
+        <td align="left">map:</td>
+        <td align="left">The MPQ is in local file. Stormlib will attempt to map the file into memory.
+            This speeds up the MPQ operations (reading, verifying), but has size and operating system
+            limitations.
+        </td>
+      </tr>
+      <tr>
+        <td align="left">BASE_PROVIDER_HTTP<br />(0x0002)</td>
+        <td align="left">http:</td>
+        <td align="left">The MPQ is on a web server available via HTTP protocol. The server must support
+            random access. Only supported in Windows.
+        </td>
+      </tr>
+      </table>
+
+      <table width="100%" border="1" cellspacing="0" cellpadding="2">
+      <tr valign="top">
+        <th align="center" width="40%">Stream flag value</th>
+        <th align="center" width="60%">Meaning</th>
+      </tr>
+      <tr>
+        <td align="left">STREAM_FLAG_READ_ONLY<br />(0x00000100)</td>
+        <td align="left">This flag causes the file to be open read-only. This flag is automatically set for partial
+          and encrypted MPQs, and also for all MPQs that are not open from BASE_PROVIDER_FILE.</td>
+      </tr>
+      <tr>
+        <td align="left">STREAM_FLAG_WRITE_SHARE<br />(0x00000200)</td>
+        <td align="left">This flag causes the writable MPQ being open for write share. Use with caution.
+          If two applications write to an open MPQ simultaneously, the MPQ data get corrupted.</td>
+      </tr>
+      <tr>
+        <td align="left">STREAM_FLAG_USE_BITMAP<br />(0x00000400)</td>
+        <td align="left">This flag tells the file stream handler to respect a file bitmap. File bitmap is used by MPQs
+          whose file blocks are downloaded on demand by the game.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_NO_LISTFILE<br />(0x00010000)</td>
+        <td align="left">Don't read the internal listfile.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_NO_ATTRIBUTES<br />(0x00020000)</td>
+        <td align="left">Don't open the "(attributes)" file.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_NO_HEADER_SEARCH<br />(0x00040000)</td>
+        <td align="left">Do not search the header at 0x200 byte offsets.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_FORCE_MPQ_V1<br />(0x00080000)</td>
+        <td align="left">Forces the MPQ to be open as MPQ format 1.0, ignoring "wFormatVersion" variable in the header.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_CHECK_SECTOR_CRC<br />(0x00100000)</td>
+        <td align="left"><a href="sfilereadfile.html">SFileReadFile</a> will check CRC of each file sector on any file in the archive until the archive is closed.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_READ_ONLY<br />(deprecated)</td>
+        <td align="left">This flag is deprecated. Use STREAM_FLAG_READ_ONLY instead.</td>
+      </tr>
+      <tr>
+        <td align="left">MPQ_OPEN_ENCRYPTED<br />(deprecated)</td>
+        <td align="left">This flag is deprecated. Use STREAM_PROVIDER_MPQE instead.</td>
+      </tr>
+      </table>
+    </dd>
+    <dd>When calling this function in Storm.dll, set this parameter to zero.</dd>
+  <dt>phMPQ</dt>
+    <dd>[out] Pointer to a variable of HANDLE type, where the opened archive handle will be stored.</dd>
+</dl>
+
+<h2>Archive Name</h2>
+<p>Since StormLib version 9.00, an archive name can have a prefix specifying the type of the archive. If a prefix is specified,
+it has greater priority than the appropriate stream flag. The list of possible prefixes is described in the table in the
+<i>Parameters</i> section above. A short list of examples how to use name prefix is below. Note that the "//" after
+the name prefix is optional. Both "map:C:\file.ext" and "map://C:\file.ext" are allowed and are equal. The http: prefix
+only works in Windows.</p>
+<code>
+   "flat-file://C:\Data\expansion.MPQ"<br />
+   "part-file://C:\Data\Installer UI 2 deDE.MPQE"<br />
+   "blk4-http://www.site.com/MPQs/alternate.MPQ"<br />
+   "map://C:\Data\world.MPQ"<br />
+   "http://www.site.com/MPQs/alternate.MPQ"<br />
+</code>
+
+<p>The name string can also specify a master-mirror pair. The data are primarily taken from the mirror (e.g. local file),
+but if they are not available, they are loaded from the master (e.g. a web file). The name of the master archive must
+follow the name of the mirror archive, separated by an asterisk ('*'). An example how to use a master-mirror pair is below.</p>
+<code>
+    SFileOpenArchive("flat-file://C:\alternate.MPQ*http://www.server.com/data/mpqs/alternate.MPQ", ...);
+</code>
+
+<h2>Return Value</h2>
+<p>When the function succeeds, it returns nonzero and phMPQ contains the handle of the opened archive.
+When the archive cannot be open, function returns false and <b>GetLastError</b> gives the error code.</p>
+
+<h2>Availability in Storm.dll</h2>
+<table width="50%" cellspacing="0" border="1">
+<tr valign="top">
+  <td align="left" width="60%">Available in Storm.dll</td>
+  <td align="left" width="40%">Yes</td>
+</tr>
+<tr>
+  <td align="left">Ordinal number in Storm.dll 1.00</td>
+  <td align="left">63 (0x03F)</td>
+</tr>
+<tr>
+  <td align="left">Ordinal number in Storm.dll 1.09</td>
+  <td align="left">266 (0x10A)</td>
+</tr>
+</table>
+
+<!-- Page footer -->
+<p class="copyright">Copyright (c) Ladislav Zezula 2003 - 2014</p>
+
+</div>
+
+</body>
+</html>

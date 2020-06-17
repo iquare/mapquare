@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: ExtMappingTool, Configuration: Release Win32 ------
+1>  upgreqmenu.cpp
+1>  ExtMappingTool.vcxproj -> C:\Users\iquare\Documents\Visual Studio 2015\Projects\ExtMappingTool\Win32\Release\ExtMappingTool.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

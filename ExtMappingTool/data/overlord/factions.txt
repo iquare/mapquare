@@ -1,0 +1,52 @@
+# factions data (External Definition)
+# numeric_id
+#index, name, color(bw index), icon id string id
+#must be delimited by tabs
+0	No Faction	1	94	1372
+1	Kel-Morian Combine	29	257	1388
+2	Tal-Qirat Guild	5	26	1389
+3	Alpha Squadron	4	273	1390
+4	Gamma Squadron	6	202	1391
+5	Nova Squadron	16	274	1392
+6	Epsilon Squadron	23	214	1393
+7	Omega Squadron	5	272	1394
+8	Colonial Militia	21	279	1395
+9	Umojans	14	258	1396
+10	Pirates	17	31	1375
+11	Miners	22	36	1373
+12	Scavengers	3	87	1374	
+13	Mercenaries	2	119	1372
+14	Cerberus	6	274	1397	
+
+ # Grey          = 0x01,
+ # Grey2         = 0x02,
+ # Yellow        = 0x03,
+ # White         = 0x04,
+ # DarkGrey      = 0x05,
+ # Red           = 0x06,
+ # Green         = 0x07,
+ # Invisible     = 0x08,
+#  Tab           = 0x09,
+#  Newline       = 0x0A,
+#  Unknown       = 0x0B,
+#  Newline2      = 0x0C,
+ # Invisible2    = 0x0D,
+ # AlignRight    = 0x12,
+ # AlignCenter   = 0x13,
+ # TextGone      = 0x14,
+ # RiverBlue     = 0x0E,
+ # Teal          = 0x0F,
+ # Purple        = 0x10,
+ # Orange        = 0x11,
+ # Brown         = 0x15,
+ # LightGrey     = 0x16,
+ # Yellow2       = 0x17,
+ # DarkGreen     = 0x18,
+ # Yellow3       = 0x19,
+ # Yellow4       = 0x1A,
+ # Navy          = 0x1C,
+ # ArmyGreen     = 0x1D,
+ # Grey3         = 0x1E,
+ # Teal2         = 0x1F,
+ # AlignCenter2  = 0x13,
+ # TextGone2     = 0x14,
