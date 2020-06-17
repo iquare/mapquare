@@ -600,7 +600,7 @@ void upgReqMenu::PopulateCurrentSecondaryBoxes() {
 	};
 	switch (item.id) {
 		case Requirement::RequiresFaction:
-			//hren22
+			//requires faction - overlord-specific
 			for (int i = 0; i < factions_info.size(); i++) {
 				ui.opcodeValueCombobox->addItem(QString::fromStdString(get_faction_name(factions_info[i].index)), factions_info[i].index);
 			}
@@ -619,8 +619,6 @@ void upgReqMenu::PopulateCurrentSecondaryBoxes() {
 			break;
 		case Requirement::RequiresUpgradeLevel:
 		case Requirement::LevelReq:
-/*			QMessageBox::information(this, tr(""),
-				QString::fromStdString("Upgreq " + WriteInt(NNN)+all_upg_definitions[2].name));*/
 			for (int i = 0; i < 255; i++) {
 				ui.opcodeValueCombobox->addItem(QString::fromStdString(get_upgrade_name(i)), i + 1);
 			}
