@@ -51,8 +51,6 @@ void upgReqMenu::on_LButton_clicked() {
 		}
 		QMessageBox::information(this, tr("Unable to open file"),
 			QString::fromStdString("Try open, clear data [0]"));
-		QMessageBox::information(this, tr("Unable to open file"),
-			QString::fromStdString("N!"));
 		req_tree_data.clear();
 
 		QMessageBox::information(this, tr("Unable to open file"),
@@ -1167,9 +1165,7 @@ void upgReqMenu::LoadEntry(int e) {
 		QString::fromStdString("Not found"));*/
 	}
 	else {
-		last_item = NULL;/*
-						 QMessageBox::information(this, tr("Unable to open file"),
-						 QString::fromStdString("Start reading!"));*/
+		last_item = NULL;
 		readIndexEntry_parent(req_tree_data[e].data, ui.reqList);
 	}
 	

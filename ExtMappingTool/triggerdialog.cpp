@@ -172,12 +172,12 @@ std::string WriteDouble(double x)
 }
 void triggerDialog::on_testLabel_linkActivated() {
 	QMessageBox::information(this, tr("Unable to open file"),
-		QString::fromStdString("Pig"+WriteInt(this->label_list.size())));
+		QString::fromStdString("Test"+WriteInt(this->label_list.size())));
 }
 
 
 void triggerDialog::on_testButton_clicked() {
-	addTreeRawRoot("N", "hren");
+
 }
 void triggerDialog::addTreeCoreRoot(QString name, QStyle::StandardPixmap icon, int id) {
 	QTreeWidgetItem *treeItem = new QTreeWidgetItem(ui.triggerMembersWidget);
@@ -193,7 +193,7 @@ void triggerDialog::addTreeRawRoot(QString name, QString description) {
 	
 	QTreeWidgetItem *treeItem = new QTreeWidgetItem(ui.triggerMembersWidget);
 	QLabel *label = new QLabel("<i>italics</i>, <b>bold</b>, normal", ui.triggerMembersWidget);
-	QString richText("Trigger swine of <a href =\ https://pr0nogo.wikidot.com\" style=\"color: orangered;\">Visit pr0nogo wikidot</a> a");
+	QString richText("TestText1 <a href =\ https://pr0nogo.wikidot.com\" style=\"color: orangered;\">TestText2</a> a");
 	label->setText(richText);
 
 

@@ -14,7 +14,7 @@ add_event::add_event(QWidget *parent)
 	for (int i = 0; i < 4; i++) {
 		int n = pow(2, i + 1);
 		QString richText;
-		richText = "N";
+		richText = "Text";
 		ui.eventTypeComboBoxClasses->addItem(richText, QVariant::fromValue(n));
 	}*/
 	selected_class = EventClass::All;
