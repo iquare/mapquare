@@ -125,6 +125,7 @@ private:
 	void readIndexEntry_parent(std::vector<UpgTreeData> &destination, QTreeWidget* parent);
 	void readIndexEntry_child(std::vector<UpgTreeData> &destination, QTreeWidgetItem* parent);
 	void ReadTreeItem(QTreeWidgetItem* item, std::vector<UpgTreeData> &destination, int itr);
+	void clearFocus();
 	std::string recursion_check;
 	int refresh_string;
 	bool value_combobox_status;

@@ -661,9 +661,7 @@ void upgReqMenu::UpdateComboboxesStatus() {
 		ui.opcodeComparisonCombobox->setDisabled(true);
 		ui.opcodeValueCombobox->setDisabled(true);
 		ui.opcodeNumericValueBox->setDisabled(true);
-		ui.opcodeCombobox->setDisabled(true);/*
-		QMessageBox::information(this, tr(""),
-			QString::fromStdString("No selection"));*/
+		ui.opcodeCombobox->setDisabled(true);
 		return;
 	}
 	else {
@@ -692,7 +690,6 @@ void upgReqMenu::UpdateComboboxesStatus() {
 	case ReqSetterRType::NoSetters:
 		ui.opcodeComparisonCombobox->setDisabled(true);
 		ui.opcodeValueCombobox->setDisabled(true);
-
 		break;
 	case ReqSetterRType::Comparisons:
 		ui.opcodeComparisonCombobox->setDisabled(false);
@@ -706,9 +703,6 @@ void upgReqMenu::UpdateComboboxesStatus() {
 	};
 	if (item.id == Requirement::RequiresUpgradeLevel || item.id == Requirement::LevelReq) {
 		ui.opcodeNumericValueBox->setDisabled(false);
-		/*
-		QMessageBox::information(this, tr(""),
-			QString::fromStdString("enable valuebox"));*/
 	}
 	else {
 		ui.opcodeNumericValueBox->setDisabled(true);
@@ -803,7 +797,16 @@ void upgReqMenu::defaultSetup() {
 UpgTreeDataElement::UpgTreeDataElement() {
 	used = false;
 }
-
+void upgReqMenu::clearFocus() {
+	ui.opcodeValueCombobox->clearFocus();
+	ui.opcodeComparisonCombobox->clearFocus();
+	ui.opcodeCombobox->clearFocus();
+	ui.opcodeNumericValueBox->clearFocus();
+	ui.opcodeCombobox->hidePopup();
+	ui.opcodeComparisonCombobox->hidePopup();
+	ui.opcodeValueCombobox->hidePopup();
+	
+}
 void upgReqMenu::on_upgradeList_itemSelectionChanged() {
 	//QMessageBox::information(this, tr(""), QString::fromStdString("Itemselch" + WriteInt(code_list_change)));
 	if (!code_list_change) {
@@ -811,25 +814,12 @@ void upgReqMenu::on_upgradeList_itemSelectionChanged() {
 	}
 	
 	auto data = qvariant_cast<int>(ui.upgradeList->currentItem()->data(0, Qt::UserRole));
+	clearFocus();
 	SaveEntry(currentUpgrade);
 	LoadEntry(data);
-	if (ui.reqList->currentItem() == NULL) {
-		//ui.reqList->setCurrentItem();
-	}
-
-	
-	/*
-	QMessageBox::information(this, tr(""), "Entry 62 debugging:");
-	
-	for (auto a : req_tree_data[62].data) {
-		QMessageBox::information(this, tr(""), QString::number(a.current.id));
-		for (auto b : a.nested) {
-			QMessageBox::information(this, tr(""), QString::number(b.current.id));
-		}
-	}*/
-
-
 	currentUpgrade = data;
+
+	
 
 }
 void upgReqMenu::interfaceSetup() {
@@ -999,11 +989,28 @@ void upgReqMenu::writeIndexEntry(QTreeWidgetItem *item, std::vector<UpgTreeData>
 
 	auto data = qvariant_cast<ReqOpcode>(item->data(0, Qt::UserRole));
 	UpgTreeData u;
+	/*QMessageBox::information(this, tr("Unable to open file"),
+		QString::fromStdString("Write index..."));*/
 	u.current = data;
+	/*QMessageBox::information(this, tr("Unable to open file"),
+		"Push [" + QString::number(data.id) + " " + QString::number(data.core_root) + " " + QString::number(data.current_comparison_index) +
+		" " + QString::number(data.current_value_index) + "]  " + QString::number(u.nested.size()));*/
 	for (int i = 0; i < item->childCount(); i++) {
+	/*
+		QMessageBox::information(this, tr("Unable to open file"),
+			QString::fromStdString("Write child..."));*/
 		writeIndexEntry(item->child(i), u.nested);
 	}
+
+	/*
+	*/
 	destination.push_back(u);
+	//correct
+	//push [0 1 65535 -1] 2
+
+	//bad
+	//push [3 1 0 -1] 2
+
 }
 
 int upgReqMenu::tree_depth(QTreeWidgetItem *item) {
@@ -1093,6 +1100,7 @@ void upgReqMenu::on_reqRemoveButton_clicked(){
 }
 
 void upgReqMenu::SaveEntry(int e){
+	ui.reqList->setCurrentItem(ui.reqList->topLevelItem(0), 0, QItemSelectionModel::Select);//to fix bug with using wrong core root
 	req_tree_data[e].data.clear();
 	req_tree_data[e].used = ui.usedBox->isChecked();
 	for (int i = 0; i < ui.reqList->topLevelItemCount(); i++) {
@@ -1103,16 +1111,20 @@ void upgReqMenu::SaveEntry(int e){
 void upgReqMenu::on_savetreetest_clicked() {
 	if (ui.reqList != NULL)
 	{
+		clearFocus();
 		SaveEntry(current_upgrade_id);
+
+
 	}
 }
 
 void upgReqMenu::ReadTreeItem(QTreeWidgetItem* treeItem, std::vector<UpgTreeData> &destination, int i) {
 	auto data = destination[i].current;
+/*	QMessageBox::information(this, tr("Unable to open file"),
+		"Pop " + QString::number(data.id) + " " + QString::number(destination[i].nested.size()));*/
 	if (last_item == NULL) {
 		last_item = treeItem;
-	}
-
+	}	
 	treeItem->setText(0, requirement_string(data.id, data.current_comparison_index, 
 		data.current_value_index, data.current_level_index));
 	if (branching_opcode(data.id)) {
@@ -1137,36 +1149,21 @@ void upgReqMenu::readIndexEntry_parent(std::vector<UpgTreeData> &destination, QT
 void upgReqMenu::readIndexEntry_child(std::vector<UpgTreeData> &destination, QTreeWidgetItem* parent) {
 
 	for (int i = 0; i<destination.size(); i++) {
-		/**
-		QMessageBox::information(this, tr("Unable to open file"),
-			QString::fromStdString("(child) "+WriteInt(destination[i].current.id)));*/
 		QTreeWidgetItem *treeItem;
 		treeItem = new QTreeWidgetItem(parent);
 		ReadTreeItem(treeItem, destination, i);
 		readIndexEntry_child(destination[i].nested, treeItem);
-		/*
-		for (auto a : destination[i].nested) {
-			QMessageBox::information(this, tr("Unable to open file"),
-				QString::fromStdString("Read nested entry (child)!"));
-			readIndexEntry_child(a.nested, treeItem);
-			QMessageBox::information(this, tr("Unable to open file"),
-				QString::fromStdString("Finish nested entry (child)!"));
-		}*/
 	}
 }
 
 void upgReqMenu::LoadEntry(int e) {
 	ui.reqList->clear();
 	ui.usedBox->setChecked(req_tree_data[e].used);
-	if (req_tree_data.find(e) == req_tree_data.end()) {
-		/*	QMessageBox::information(this, tr("Unable to open file"),
-		QString::fromStdString("Not found"));*/
-	}
-	else {
+
+	if (req_tree_data.find(e) != req_tree_data.end()) {
 		last_item = NULL;
 		readIndexEntry_parent(req_tree_data[e].data, ui.reqList);
 	}
-	
 }
 
 void upgReqMenu::on_loadtreetest_clicked() {
